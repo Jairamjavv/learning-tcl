@@ -14,5 +14,6 @@ set price 100
 set car_price $price
 puts "The car price is $car_price"
 
-
 ;# nested command substitution 
+set l [string length "flabbergasted"]
+puts $l
