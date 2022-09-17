@@ -17,3 +17,14 @@ puts "The car price is $car_price"
 ;# nested command substitution 
 set l [string length "flabbergasted"]
 puts $l
+
+;# lists
+set favourite_food {"Panniyaram" "Masala Dosa" "Idli"}
+puts $favourite_food
+
+;# lists: operations
+puts [lindex $favourite_food 2] ;# fetching the value at index 2
+puts [llength $favourite_food] ;# returning the length of the list
+lappend favourite_food "Shirataki Noodles" "Veg Machurian - Dry" ;# appending new values in the list
+puts $favourite_food
+
